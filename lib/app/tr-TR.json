@@ -30,8 +30,8 @@
       "update": "Sorun güncellendi."
     },
     "multiple": {
-      "title": "Here comes trouble!",
-      "body": "We received %s new notifications from Github."
+      "title": "Bela başlıyor!",
+      "body": "Github'dan yeni bildirim %s geldi."
     },
     "buttons": {
       "show_unread": "Okunmamış",
@@ -39,7 +39,7 @@
       "mark_all_as_read": "Hepsini okundu işaretle",
       "mark_repo_as_read": "Bütün bildirimleri okundu işaretle"
     },
-    "sync": "Syncing notifications"
+    "sync": "Bildirimleri güncelle"
   },
   "announcements": {
     "show_previous": "Önceki duyurular ...",
@@ -48,31 +48,31 @@
   "welcome": {
     "privacy_link": "Gizlilik Politikası",
     "login": {
-      "title": "Gitscout'a Hoşgeldibniz.",
-      "tagline": "Browse, organize and manage your GitHub Issues.",
+      "title": "Gitscout'a Hoşgeldiniz.",
+      "tagline": "GitHub Sorunlarınızı tarayın, organize edin ve yönetin.",
       "btn_connect_gh": "GitHub ile giriş",
       "btn_create_account": "Kayıt ol",
-      "no_account": "You must create an account before."
+      "no_account": "Önce bir hesap oluşturmalısınız."
     },
     "account": {
-      "title": "Confirm your details",
+      "title": "Bilgilerinizi onayla",
       "placeholder_name": "İsim",
-      "placeholder_company": "Şirket (optional)",
-      "placeholder_email": "Eposta adresi",
-      "benefits_link": "Why do I need an account?",
-      "btn": "Hesabı oluştur",
-      "error_required": "required field",
+      "placeholder_company": "Şirket (opsiyonel)",
+      "placeholder_email": "E-posta adresi",
+      "benefits_link": "Neden bir hesaba ihtiyacım var?",
+      "btn": "Hesab oluştur",
+      "error_required": "zorunlu alanlar",
       "error_email": {
         "invalid": "Geçersiz e-posta adresi",
         "duplicate": "E-posta kayıtlı"
       }
     },
     "setup": {
-      "title": "🤗  Define your preferences",
-      "feedback": "Follow the Gitscout feedback repositoty.",
-      "autolaunch": "Launch Gitscout at login.",
-      "notifications": "Display desktop notifications",
-      "btn": "Let me in"
+      "title": "🤗  Tercihlerinizi belirleyin",
+      "feedback": "Gitscout geribildirim projesini takip edin.",
+      "autolaunch": "Girişte Gitscout'u başlat.",
+      "notifications": "Masaüstü bildirimlerini göster",
+      "btn": "Girmeme izin ver"
     },
     "loading": {
       "fetch_account": "Fetching your Gitscout account.",
@@ -84,10 +84,10 @@
     }
   },
   "onboarding": {
-    "btn_skip": "skip",
-    "btn_next": "next",
+    "btn_skip": "geç",
+    "btn_next": "sonraki sayfa",
     "setup": {
-      "title": "Application setup",
+      "title": "Uygulama kurulumu",
       "feedback": "Follow the Gitscout feedback repository.",
       "autolaunch": "Open magically when you log in.",
       "notifications": "Allow desktop Notifications.",
@@ -401,85 +401,85 @@
       "saved": "Saved issues list",
       "labels": {
         "none": "No action",
-        "save": "Save/Unsave",
-        "state": "Close/Reopen",
+        "save": "Kaydet/Kaydetme",
+        "state": "Kapat/Yeniden aç",
         "assign": "Toggle self-assign",
         "milestone": "Add/remove to next milestone",
-        "subscribe": "Subscribe/Unsubscribe",
-        "read": "Mark as read"
+        "subscribe": "Üye ol/Üyelikten ayrıl",
+        "read": "Okundu olarak işaretle"
       }
     },
     "notifications": {
-      "disabled": "Don't disturb me!",
-      "participating": "Only if I'm participating to the thread.",
-      "all": "Always."
+      "disabled": "Beni rahatsız etme!",
+      "participating": "Yalnızca thread katılırsam.",
+      "all": "Daima."
     },
     "repositories": {
       "default": "<p>Need to focus on major projects?</p><p>Let's define the visible<br>organizations/repositories in the sidebar.</p>",
       "owner_desc": {
-        "zero": "%s, no repository",
-        "one": "%s, %s repository",
-        "more": "%s, %s repositories"
+        "zero": "%s, proje yok",
+        "one": "%s, %s proje",
+        "more": "%s, %s projeler"
       },
-      "btn_add_repository": "Add a repository",
-      "btn_show_repositories": "Show repositories",
+      "btn_add_repository": "Proje ekle",
+      "btn_show_repositories": "Projeleri göster",
       "hide_owner": "Hide this %s from the sidebar",
-      "show_all": "Show all repositories",
-      "no_desc": "No description"
+      "show_all": "Bütün projeleri göster",
+      "no_desc": "Açıklama yok"
     }
   },
   "uploader": {
     "attach": "Drop \"%(name)s%(extension)s\" to attach",
-    "uploading": "Uploading your file",
-    "uploaded": "Uploaded",
+    "uploading": "Dosya gönderiliyor"",
+    "uploaded": "Gönderildi.",
     "errors": {
-      "max_files": "You can only drop one file at a time",
-      "max_size": "File is over %(size)s",
-      "invalid_format": "This file format is not supported by Github.<div class=\"c-uploader__supported-files\"><p>FORMAT SUPPORTED</p><span>PNG, GIF, JPG, DOCX, PPTX, XLSX, TXT, PDF, or ZIP</span></div>",
-      "empty_file": "This file is empty.<br> Try again with an actual file."
+      "max_files": "Aynı anda yalnızca bir dosya bırakabilirsiniz.",
+      "max_size": "Dosya boyutu aşılıyor %(size)s",
+      "invalid_format": "Bu dosya biçimi Github tarafından desteklenmiyor.<div class=\"c-uploader__supported-files\"><p>FORMAT SUPPORTED</p><span>PNG, GIF, JPG, DOCX, PPTX, XLSX, TXT, PDF, or ZIP</span></div>",
+      "empty_file": "Bu dosya boş<br>Gerçek bir dosya ile tekrar deneyin."
     },
     "warning": {
-      "file_size": "File is over %(size)s, are you sure you want to upload it?",
-      "btn_confirm": "Confirm",
-      "btn_cancel": "Cancel"
+      "file_size": "Dosya boyutu aşılıyor %(size)s, yüklemek istediğinizden emin misiniz?",
+      "btn_confirm": "Onayla",
+      "btn_cancel": "İptal"
     }
   },
   "composer": {
-    "header_save_draft": "Save as draft",
-    "header_discard": "Discard",
-    "repository_placeholder": "First select a repository",
-    "title_placeholder": "Untitled",
-    "body_placeholder": "Leave a comment",
-    "body_no_preview": "Nothing to preview.",
-    "body_preview_error": "Oops, we can not display your preview.",
-    "tooltip_labels": "Labels",
-    "tooltip_assignee": "Assignee",
-    "tooltip_milestone": "Milestone",
-    "tooltip_attachment": "Attach a file",
-    "tooltip_preview": "Preview comment",
-    "tooltip_expand": "Expand composer",
-    "tooltip_collapse": "Minimize composer",
-    "btn_preview": "Preview",
-    "btn_submit": "Submit new issue",
-    "btn_comment": "Comment",
-    "btn_comment_update": "Update comment",
+    "header_save_draft": "Taslak olarak kaydet",
+    "header_discard": "Kaydetmedenb çık",
+    "repository_placeholder": "Önce bir proje seçin",
+    "title_placeholder": "Başlıksız",
+    "body_placeholder": "Yorum yazın",
+    "body_no_preview": "Önizleme yok.",
+    "body_preview_error": "Oops, Önizlemenizi görüntüleyemiyoruz.",
+    "tooltip_labels": "Etiketler",
+    "tooltip_assignee": "Atanan",
+    "tooltip_milestone": "Önemli olay",
+    "tooltip_attachment": "Dosya ekle",
+    "tooltip_preview": "Yorum ön izleme",
+    "tooltip_expand": "Ekranı kapla",
+    "tooltip_collapse": "Ekranı küçült",
+    "btn_preview": "Ön izleme",
+    "btn_submit": "Yeni sorun ekle",
+    "btn_comment": "Yorum",
+    "btn_comment_update": "Yorumu güncelle",
     "btn_secondary_close": "Close issue",
-    "btn_secondary_close_comment": "Close and comment",
-    "btn_secondary_reopen": "Reopen issue",
-    "btn_secondary_reopen_comment": "Reopen and comment",
+    "btn_secondary_close_comment": "Kapat ve yorum",
+    "btn_secondary_reopen": "Sorunu yeniden aç",
+    "btn_secondary_reopen_comment": "Yeniden aç ve yorum",
     "title_comment": "Comment issue #%s",
-    "title_comment_edit": "Edit comment",
-    "title_edit": "Edit issue",
-    "title_default": "New Issue",
-    "title_preview_mode": " - Preview",
-    "contextmenu_github_copy_url_ticket": "Copy issue url",
-    "contextmenu_github_copy_url_comment": "Copy comment url",
-    "contextmenu_github_link": "View on Github",
-    "contextmenu_edit_comment": "Edit comment",
-    "contextmenu_edit_ticket": "Edit issue",
-    "contextmenu_delete_comment": "Delete comment",
-    "contextmenu_delete_ticket": "Delete ticket",
-    "unsaved_change_title": "Are you sure you want to quit?",
-    "unsaved_change_question": "​Are you sure you want to close?​\nYour changes won’t be saved."
+    "title_comment_edit": "Yorumu düzenle",
+    "title_edit": "Sorunu düzenle",
+    "title_default": "Yeni sorun",
+    "title_preview_mode": " - Ön izleme",
+    "contextmenu_github_copy_url_ticket": "Sorunun adresini kopyala",
+    "contextmenu_github_copy_url_comment": "Yorumun adresini kopyala",
+    "contextmenu_github_link": "Github'da görüntüle",
+    "contextmenu_edit_comment": "Yorumu düzenle",
+    "contextmenu_edit_ticket": "Sorunu düzenle",
+    "contextmenu_delete_comment": "Yorumu sil",
+    "contextmenu_delete_ticket": "Bileti sil",
+    "unsaved_change_title": "Çıkmak istediğinden emin misin?",
+    "unsaved_change_question": "​Kapatmak istediğinizden emin misiniz?​\nDeğişiklikleriniz kaydedilmeyecek."
   }
 }

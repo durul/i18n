@@ -10,8 +10,8 @@
   "global": {
     "loading": "Yükleniyor",
     "cancel": "İptal",
-    "warning_discard_change": "Are you sure you want to discard your unsaved changes?",
-    "offline": "<p>Oops! Connection lost, you should check your internet.</p><p>Can you copy?</p>",
+    "warning_discard_change": "Kaydedilmemiş değişiklikleriniz var, çıkmak istediğinizden emin misiniz?",
+    "offline": "<p>Oops! Bağlantı kesildi, internetinizi kontrol etmelisiniz.</p><p>Kopyasını alabilir misin?</p>",
     "undo": "Geri al",
     "ok": "Tamam",
     "back": "Geri",
@@ -20,13 +20,13 @@
   "updater": {
     "new_release": {
       "title": "Gitscout Güncelleyici",
-      "message": "The update has installed itself successfully. – You’re now running the latest and hottest version of Gitscout.",
+      "message": "Güncelleme başarılı bir şekilde yüklendi. – Şu anda Gitscout'un en yeni ve en ateşli sürümünü kullanıyorsunuz.",
       "button": "Yükle ve Yeniden başlat"
     }
   },
   "notifications": {
     "single": {
-      "new_issue": "Yeni sorun yayımlandı",
+      "new_issue": "Yeni sorun yayınlandı",
       "update": "Sorun güncellendi."
     },
     "multiple": {
@@ -42,26 +42,26 @@
     "sync": "Bildirimleri güncelle"
   },
   "announcements": {
-    "show_previous": "Önceki duyurular ...",
+    "show_previous": "Önceki duyurular...",
     "topbar_title": "Duyurular"
   },
   "welcome": {
     "privacy_link": "Gizlilik Politikası",
     "login": {
       "title": "Gitscout'a Hoşgeldiniz.",
-      "tagline": "GitHub Sorunlarınızı tarayın, organize edin ve yönetin.",
+      "tagline": "GitHub sorunlarınızı tarayın, organize edin ve yönetin.",
       "btn_connect_gh": "GitHub ile giriş",
       "btn_create_account": "Kayıt ol",
       "no_account": "Önce bir hesap oluşturmalısınız."
     },
     "account": {
-      "title": "Bilgilerinizi onayla",
+      "title": "Bilgilerinizi onaylayın",
       "placeholder_name": "İsim",
       "placeholder_company": "Şirket (opsiyonel)",
       "placeholder_email": "E-posta adresi",
       "benefits_link": "Neden bir hesaba ihtiyacım var?",
       "btn": "Hesab oluştur",
-      "error_required": "zorunlu alanlar",
+      "error_required": "Zorunlu alanlar",
       "error_email": {
         "invalid": "Geçersiz e-posta adresi",
         "duplicate": "E-posta kayıtlı"
@@ -69,18 +69,18 @@
     },
     "setup": {
       "title": "🤗  Tercihlerinizi belirleyin",
-      "feedback": "Gitscout geribildirim projesini takip edin.",
+      "feedback": "Gitscout geri bildirim projesini takip edin.",
       "autolaunch": "Girişte Gitscout'u başlat.",
       "notifications": "Masaüstü bildirimlerini göster",
       "btn": "Girmeme izin ver"
     },
     "loading": {
-      "fetch_account": "Fetching your Gitscout account.",
-      "create_account": "Creating your Gitscout account.",
-      "checking_env": "Checking your Gitscout version",
-      "fetch_repositories": "Fetching your organizations/repositories",
-      "fetch_saved": "Fetching your saved list",
-      "all_done": "Welcome aboard fellow Scout 😀"
+      "fetch_account": "Gitscout hesabınız işleniyor.",
+      "create_account": "Gitscout hesabınızı yaratıyorsunuz.",
+      "checking_env": "Gitscout versiyonunuzu kontrol edin.",
+      "fetch_repositories": "Firmanız ve projeleriniz işleniyor.",
+      "fetch_saved": "Kayıtlı listeniz işleniyor.",
+      "all_done": "Gemiye Hoşgeldin İzci 😀"
     }
   },
   "onboarding": {
@@ -88,265 +88,265 @@
     "btn_next": "sonraki sayfa",
     "setup": {
       "title": "Uygulama kurulumu",
-      "feedback": "Follow the Gitscout feedback repository.",
-      "autolaunch": "Open magically when you log in.",
-      "notifications": "Allow desktop Notifications.",
-      "btn": "Let's fix some issues! 👋"
+      "feedback": "Gitscout geri bildirim projesini izleyin.",
+      "autolaunch": "Giriş yaptığınızda sihirli bir şekilde açın.",
+      "notifications": "Masaüstü Bildirimlerine izin ver.",
+      "btn": "Bazı sorunları düzeltelim! 👋"
     },
     "features": {
       "feature_1": {
         "image": "saved_issues",
-        "title": "Saved List",
-        "text": "“Save” any tickets in one click to organize your daily tasks."
+        "title": "Kayıtlı Liste",
+        "text": "“Kaydet” Günlük görevlerinizi tek bir tıklamayla organize edin."
       },
       "feature_2": {
         "image": "cmd_k",
-        "title": "Repository switcher",
-        "text": "Switch from a repo to an other without leaving the comfort of your keyboard."
+        "title": "Proje Değiştiricisi",
+        "text": "Klavyenizin konforundan ayrılmadan bir projeden diğerine geçiş yapın."
       },
       "feature_3": {
         "image": "organise_repositories",
-        "title": "Sidebar customization",
-        "text": "Easily manage your organizations and repositories."
+        "title": "Kenar çubuğu özelleştirme",
+        "text": "Şirketinizi ve projelerinizi kolayca yönetin."
       },
       "feature_4": {
         "image": "desktop_notifications",
-        "title": "Desktop Notifications",
-        "text": "Stay in the loop, and get notified of any change in your projects."
+        "title": "Masaüstü Bildirimleri",
+        "text": "Döngüde kalın ve projelerinizdeki herhangi bir değişikliği bildirin."
       }
     }
   },
   "shortcuts": {
-    "header": "Keyboard Shortcuts",
+    "header": "Klavye Kısayolları",
     "labels": {
-      "preferences": "Preferences",
-      "hide_app": "Hide Gitscout",
-      "hide_other": "Hide other",
-      "close": "Close",
-      "quit": "Quit",
-      "new_issue": "New Issue",
-      "quickswitch": "Quick switch",
-      "search": "Search issue",
-      "notifications_unread": "Unread notifications",
-      "notifications_participating": "Participating notifications",
-      "saved": "Saved issues",
-      "drafts": "Drafts",
-      "refresh": "Refresh views",
-      "add_repo": "Add a repository"
+      "preferences": "Tercihler",
+      "hide_app": "Gitscout Gizle",
+      "hide_other": "Diğerlerinden gizle",
+      "close": "Kapat",
+      "quit": "Çıkış",
+      "new_issue": "Yeni Sorun",
+      "quickswitch": "Hızlı Değiştirici",
+      "search": "Sorun ara",
+      "notifications_unread": "Okunmamış bildirimler",
+      "notifications_participating": "Katılımcı bildirimleri",
+      "saved": "Kaydedilen konular",
+      "drafts": "Taslaklar",
+      "refresh": "Gösterimleri yenile",
+      "add_repo": "Bir proje ekle"
     }
   },
   "quickswitch": {
-    "placeholder": "Repository name",
-    "noresults": " 😬 No repository found.",
-    "btn_tooltip": "Quick Switch (⌘K)",
-    "btn_sidebar": "Repo Switcher"
+    "placeholder": "Proje adı",
+    "noresults": " 😬 Proje bulunamadı",
+    "btn_tooltip": "Hızlı Değiştir (⌘K)",
+    "btn_sidebar": "Proje değiştirici"
   },
   "search": {
     "filters": {
-      "title": "Smart Filters",
-      "assignee_to_me_label": "Issues assigned to me",
-      "assignee_to_me_value": "me",
-      "state_label": "Open issues",
-      "state_open": "Open",
-      "state_closed": "Closed",
-      "sort_label": "Recently updated",
-      "sort_updated_desc": "\"recently updated\"",
-      "sort_newest": "Most Recent"
+      "title": "Akıllı Filtreler",
+      "assignee_to_me_label": "Bana atanan sorunlar",
+      "assignee_to_me_value": "Ben",
+      "state_label": "Açık sorunlar",
+      "state_open": "Açık",
+      "state_closed": "Kapalı",
+      "sort_label": "Son güncellenen",
+      "sort_updated_desc": "\"son güncellenen\"",
+      "sort_newest": "En sık güncellenen"
     },
     "saved": {
       "item_title": {
-        "one": "hit once %(date)s",
-        "more": "hit %(count)s times, %(date)s"
+        "one": "Bir kere %(date)s",
+        "more": "Birden %(count)s fazla, %(date)s"
       }
     }
   },
   "addRepositoryModal": {
-    "add_title": "Enter repository URL",
-    "add_title_error": "Invalid repository access",
-    "add_button": "Add to Gitscout",
-    "add_button_err": "Try again",
+    "add_title": "Proje adresini girin",
+    "add_title_error": "Geçersiz proje erişimi",
+    "add_button": "Gitscout'a ekleyin",
+    "add_button_err": "Yeniden Dene",
     "add_placeholder": "https://github.com/owner/repository",
     "add_text": "...",
     "help": {
-      "title": "Help:",
+      "title": "Yardım:",
       "list": {
-        "wrong_url": "• You url might be incorrect.",
-        "private_repo": "• If your repository is private make sure you have access to it.",
-        "api_restriction": "• Make sur the administrator allows the repository API access."
+        "wrong_url": "• URL'si yanlış olabilir.",
+        "private_repo": "• Projeniz özel ise, erişiminizin olduğundan emin olun.",
+        "api_restriction": "• Yönetici deposunun API erişimine izin verdiğinden emin olun."
       }
     },
     "fork": {
-      "header": "Looks like you want to add a forked repository 🤔",
-      "message": "Do you want to add original repository, <strong>%s</strong>, to your list?",
-      "btn_cancel": "NO, THANKS",
-      "btn_valid": "ADD IT TO MY LIST"
+      "header": "Çatallı bir proje eklemek istediğinize benziyor 🤔",
+      "message": "Orijinal depoyu eklemek listenize eklemek <strong>%s</strong> istiyor musunuz?",
+      "btn_cancel": "HAYIR, TEŞEKKÜRLER",
+      "btn_valid": "LİSTEYE EKLEYİN"
     }
   },
   "dropdown": {
-    "search_placehoder": "Search"
+    "search_placehoder": "Arama"
   },
   "emptystates": {
-    "no_issue_select": "Choose an issue and get to work'",
-    "issue_not_found": "Oops, issue not found",
-    "issue_activity_error": "Uh-oh, there's a technical issue 😰",
-    "issue_no_results": "No issues here.",
-    "search_no_results": "No results matched your search",
-    "todo_no_results": "No issues saved here.",
-    "drafts_no_results": "No drafts saved here.",
-    "notifications_no_unread": "No new notifications.",
-    "notifications_no_archive": "No past notifications.",
-    "announcements_no_unread": "No new announcements"
+    "no_issue_select": "Bir sorun seçin ve çalışmaya başlayın",
+    "issue_not_found": "Oops, Sorun bulunamadı.",
+    "issue_activity_error": "Uh-oh, Teknik bir sorun var 😰",
+    "issue_no_results": "Burada sorun yok.",
+    "search_no_results": "Aramanızla eşleşen sonuç bulunamadı.",
+    "todo_no_results": "Hiçbir sorun bulunamadı.",
+    "drafts_no_results": "Kayıtlı taslak kaydedildi.",
+    "notifications_no_unread": "Yeni bildirim yok.",
+    "notifications_no_archive": "Geçmiş bildirim yok.",
+    "announcements_no_unread": "Yeni duyuru yok."
   },
   "sidebar": {
     "notifications": {
-      "title": "Notifications",
-      "link_unread": "Unread",
-      "link_participating": "Participating"
+      "title": "Bildirimler",
+      "link_unread": "Okunmamış",
+      "link_participating": "Katılımcı"
     },
-    "notifications_title": "Notifications",
-    "saved_title": "Saved issues",
-    "drafts_title": "Drafts",
-    "contextmenu_manage_owner": "Manage this %s",
-    "contextmenu_hide_owner": "Hide this %s",
-    "contextmenu_visit_owner": "View this %s on Github",
-    "contextmenu_hide_repository": "Hide this repository",
-    "contextmenu_visit_repository": "View this repository on Github",
-    "contextmenu_mute_repository": "Mute notifications",
-    "contextmenu_unmute_repository": "Unmute notifications"
+    "notifications_title": "Bildirimler",
+    "saved_title": "Kaydedilen sorunlar",
+    "drafts_title": "Taslaklar",
+    "contextmenu_manage_owner": "Yönet %s",
+    "contextmenu_hide_owner": "Gizle %s",
+    "contextmenu_visit_owner": "Görüntüle %s on Github",
+    "contextmenu_hide_repository": "Bu projeyi gizle",
+    "contextmenu_visit_repository": "Bu projeyi Github'da görüntüle",
+    "contextmenu_mute_repository": "Bildirimleri aç",
+    "contextmenu_unmute_repository": "Bildirimleri kapat"
   },
   "imageViewer": {
-    "prev": "Previous image",
-    "next": "Next image",
-    "download": "Download image",
-    "openShell": "Open in your browser",
-    "close": "Close"
+    "prev": "Önceki resim",
+    "next": "Sonraki resim",
+    "download": "Resmi yükle",
+    "openShell": "Tarayıcınızda açın",
+    "close": "Kapat"
   },
   "issues": {
     "state": {
-      "open": "Open",
-      "closed": "Closed",
-      "all": "All"
+      "open": "Açık",
+      "closed": "Kapalı",
+      "all": "Hepsi"
     },
     "sort": {
-      "newest": "Newest",
-      "oldest": "Oldest",
-      "commented": "Recently commented",
-      "updated": "Recently updated"
+      "newest": "En yeni",
+      "oldest": "En eskisi",
+      "commented": "Son zamanlarda yorumladı",
+      "updated": "Son zamanlarda güncellendi"
     },
-    "tooltip_add_todo": "Add to Saved issues",
-    "tooltip_remove_todo": "Remove from Saved issues",
-    "loading_more_issues": "Loading more issues",
-    "sync_repo": "Syncing repository",
-    "searching": "Searching",
+    "tooltip_add_todo": "Kaydedilen sorunlara ekle",
+    "tooltip_remove_todo": "Kaydedilen sorunlardan kaldır",
+    "loading_more_issues": "Daha fazla sorun yükleniyor",
+    "sync_repo": "Senkronizasyon",
+    "searching": "Arama",
     "no_filter": {
-      "label": "Unlabeled",
-      "milestone": "Issues with no milestone",
-      "assignee": "Unassigned"
+      "label": "Etiketsiz",
+      "milestone": "Kilometre taşı olmayan konular",
+      "assignee": "Atanmamış"
     }
   },
   "quickactions": {
-    "close": "Close",
-    "reopen": "Reopen",
-    "assign": "Self-assign",
-    "unassign": "Unassign",
-    "save": "Save issue",
-    "unsave": "Unsave issue",
-    "read": "Mark as read"
+    "close": "Kapat",
+    "reopen": "Yeniden aç",
+    "assign": "Görevi ata",
+    "unassign": "Görevi kaldır",
+    "save": "Sorunu kaydet",
+    "unsave": "Sorunu kaydetme",
+    "read": "Okundu olarak işaretle"
   },
   "issue_request": {
-    "header": "You’re not following this repository",
-    "header_error": "Oops, we can't access this repository",
-    "message": "Do you want to add <strong>%s</strong> to your list?",
-    "message_error": "Before adding this repository to your list, please make sure:",
-    "btn_cancel": "NO, THANKS",
-    "btn_valid": "ADD IT TO MY LIST"
+    "header": "Bu depoyu takip etmiyorsun",
+    "header_error": "Oops, Bu projeye erişemiyoruz",
+    "message": "Listenize eklemek istiyor musun<strong>%s</strong>?",
+    "message_error": "Bu depoyu listenize eklemeden önce, emin olun:",
+    "btn_cancel": "HAYIR TEŞEKKÜRLER",
+    "btn_valid": "LİSTEYE EKLEYİN"
   },
   "todos": {
-    "no_results": "No issue here."
+    "no_results": "Sorun yok burada."
   },
   "drafts": {
     "help": {
-      "text": "When you write a new Ticket or edit a Comment you can save it as a \"Draft\". That way, you can finish it later.",
-      "warning": "All your drafts will be deleted when you quit the app."
+      "text": "Yeni bir bilet yazarken veya bir yorumu düzenlediğinizde bunu bir \"Taslak\" olarak kaydedebilirsiniz. Bu şekilde, daha sonra bitirebilirsiniz.",
+      "warning": "Uygulamadan çıktığınızda tüm taslaklar silinir."
     }
   },
   "meta": {
-    "add_label": "Add a label",
-    "no_label": "No label yet",
-    "add_milestone": "Set a milestone",
-    "no_milestone": "No milestone",
-    "no_assignee_ticket": "Nobody assigned",
-    "no_assignee": "Assign to someone",
-    "add_assignee": "Add another assignee",
-    "issue_no_meta": "No label or assignee"
+    "add_label": "Etiket ekle",
+    "no_label": "Henüz etiket yok",
+    "add_milestone": "Bir kilometre taşı ayarlayın",
+    "no_milestone": "Kilometre taşı yok",
+    "no_assignee_ticket": "Kimse atanmadı",
+    "no_assignee": "Birisine ata",
+    "add_assignee": "Başka bir devralan ekle",
+    "issue_no_meta": "Etiket veya devralan yok"
   },
   "ticket": {
-    "btn_close": "Close issue",
-    "btn_reopen": "Reopen issue",
-    "btn_new": "New issue (⌘N)",
-    "btn_infos": "Issue meta",
-    "btn_comment": "New comment",
-    "btn_update_comment": "Update comment",
-    "placeholder_previous_activity": "Previous Comments/Events",
-    "placeholder_add_comment": "Leave comment",
-    "comment_placeholder": "No description provided.",
-    "update_comment_placeholder": "A comment cannot be empty.",
-    "form_comment_placeholder": "Leave a comment",
-    "user_mention_title": "Check out %s profile on Github",
-    "alert_undo_reopen": "You just reopened this issue.",
-    "alert_undo_close": "You just closed this issue.",
-    "alert_todo_invite": "Do you want to save this issue?",
-    "alert_todo_action": "Yes!",
-    "tooltip_labels": "Labels",
-    "tooltip_assignee": "Assignee",
-    "tooltip_milestone": "Milestone",
-    "placeholder_labels": "None yet",
-    "placeholder_assignee": "Nobody",
-    "placeholder_milestone": "No milestone",
-    "delete_comment_title": "Delete comment",
-    "delete_comment_message": "Are you sure you want to delete this comment?",
-    "tooltip_lock_conversation" : "Lock conversation",
-    "tooltip_unlock_conversation" : "Unlock conversation",
-    "conversation_locked": "This conversation has been locked and restricted to collaborators.",
-    "commit_link": "View commit details on Github"
+    "btn_close": "Sorunu kapat",
+    "btn_reopen": "Sorunu yeniden aç",
+    "btn_new": "Yeni sorun (⌘N)",
+    "btn_infos": "Meta Sorunları",
+    "btn_comment": "Yeni yorum",
+    "btn_update_comment": "Yorumu güncelle",
+    "placeholder_previous_activity": "Önceki Yorumlar / Etkinlikler",
+    "placeholder_add_comment": "Yorum bırak",
+    "comment_placeholder": "Açıklama yok.",
+    "update_comment_placeholder": "Yorum boş olamaz.",
+    "form_comment_placeholder": "Yorum Yap",
+    "user_mention_title": "Github'daki %s profili kontrol et",
+    "alert_undo_reopen": "Bu sorunu yeniden açtınız.",
+    "alert_undo_close": "Bu konuyu kapattın.",
+    "alert_todo_invite": "Bu sorunu kaydetmek istiyor musunuz?",
+    "alert_todo_action": "Evet!",
+    "tooltip_labels": "Etiketler",
+    "tooltip_assignee": "Görevlendiren",
+    "tooltip_milestone": "Kilometre taşı",
+    "placeholder_labels": "Henüz yok",
+    "placeholder_assignee": "Hiç kimse",
+    "placeholder_milestone": "Kilometre taşı yok.",
+    "delete_comment_title": "Yorumu sil",
+    "delete_comment_message": "Bu yorumu silmek istediğinizden emin misiniz?",
+    "tooltip_lock_conversation" : "Konuşmayı kilitle",
+    "tooltip_unlock_conversation" : "Konuşmanın kilidini aç",
+    "conversation_locked": "Bu konuşma kilitlendi ve ortak çalışanlarla sınırlandırıldı.",
+    "commit_link": "Github'a ilişkin işleme (commit) ayrıntılarını görüntüle"
   },
   "activity": {
     "label": {
       "add": {
-        "one": "added the %(labeled)s label",
-        "more": "added %(labeled)s labels"
+        "one": "Etiket %(labeled)s eklendi",
+        "more": "Etiketler %(labeled)s eklendi"
       },
       "remove": {
-        "one": "removed the %(unlabeled)s label",
-        "more": "removed %(unlabeled)s labels"
+        "one": "Etiket %(unlabeled)s silindi",
+        "more": "Etiketler %(unlabeled)s silindi"
       },
-      "add_remove": "added %(labeled)s and removed %(unlabeled)s labels"
+      "add_remove": "Etiketler %(labeled)ler silindi %(unlabeled)ler ve eklendi"
     },
     "rename": "changed the title from <strong class=\"ticket__event__elem\">%(from)s</strong> to <strong class=\"ticket__event__elem\">%(to)s</strong>",
     "milestone": {
-      "add": "added this to the <strong class=\"ticket__event__elem\">%(milestoned)s</strong> milestone",
-      "remove": "removed this from the <strong class=\"ticket__event__elem\">%(demilestoned)s</strong> milestone",
-      "change": "modified the milestone to <strong class=\"ticket__event__elem\">%(milestoned)s</strong>"
+      "add": "Kilometre taşına <strong class=\"ticket__event__elem\">%(milestoned)s</strong> eklendi",
+      "remove": "Kilometre taşından <strong class=\"ticket__event__elem\">%(demilestoned)s</strong> silindi",
+      "change": "Kilometre taşında değiştirildi. <strong class=\"ticket__event__elem\">%(milestoned)s</strong>"
     },
     "assignee": {
-      "themself": "themself",
-      "add": "assigned %(assigned)s",
-      "remove": "unassigned %(unassigned)s",
-      "add_remove": "assigned %(assigned)s and unassigned %(unassigned)s",
+      "themself": "Kendilerine",
+      "add": "Atanmış %(assigned)s",
+      "remove": "Atanmamış %(unassigned)s",
+      "add_remove": "Atanmış %(assigned)s ve Atanmamış %(Atanmamış)s",
       "self": {
-        "add": "assigned themself",
-        "remove": "removed their assignment"
+        "add": "Kendilerine atanmış",
+        "remove": "Görevlerini kaldırdı"
       }
     },
     "reference": {
-      "one": "added a commit that referenced this issue",
-      "more": "added %(count)s commits that referenced this issue"
+      "one": "Bu sayıyı referans alan bir işlem ekledi",
+      "more": "Bu sayıyı referans alan %(count)s bir işlemler ekledi"
     },
-    "crossref": "This was referenced",
-    "reopen": "reopened this",
-    "close": "closed this",
-    "lock": "locked and restricted this conversation to collaborators",
-    "unlock": "unlocked this conversation"
+    "crossref": "Bu referans alındı",
+    "reopen": "Yeniden açıldı.",
+    "close": "Kapatıldı",
+    "lock": "Kilitli ve bu konuşmayı ortak çalışanlara kısıtladı",
+    "unlock": "Bu konuşmanın kilidini aç"
   },
   "reactions": {
     "tooltip_selected_notyou": {
@@ -359,63 +359,63 @@
     }
   },
   "settings": {
-    "topbar_title": "Preferences (⌘,)",
+    "topbar_title": "Tercihler (⌘,)",
     "tabs": {
-      "general": "General",
-      "account": "Account",
-      "repositories": "Repositories",
-      "issues": "Issues",
-      "notifications": "Notifications",
-      "actions": "Quick actions"
+      "general": "Genel",
+      "account": "Hesap",
+      "repositories": "Projeler",
+      "issues": "Sorunlar",
+      "notifications": "Bildirimler",
+      "actions": "Hızlı eylemler"
     },
     "account": {
-      "title": "Your account",
-      "gh_login": "Github account: <strong class=\"ff-tag u-force-m\">%s</strong> %s",
-      "logout": "Logout"
+      "title": "Hesabınız",
+      "gh_login": "Github hesabı: <strong class=\"ff-tag u-force-m\">%s</strong> %s",
+      "logout": "Çıkış"
     },
     "app": {
-      "title": "Gitscout Settings",
-      "auto_open": "Launch Gitscout at login",
-      "display_notifications": "Display notifications",
-      "version": "You're currently running version %(version)s",
-      "btn_update": "Check for update now",
-      "btn_update_checking": "Checking for update",
-      "free_version": "You are using the <span class=\"ff-tag\">Free</span> version of Gitscout!",
-      "go_premium": "Treat Yo'self!",
-      "btn_upgrade": "Treat Yo'self to Premium!",
-      "user_spellcheck": "Use the Spell Checker (english only)"
+      "title": "Gitscout Ayarlar",
+      "auto_open": "Girişte Gitscout'u başlat",
+      "display_notifications": "Bildirimleri görüntüle",
+      "version": "Şu an %(version) sürümü kullanıyorsunuz",
+      "btn_update": "Şimdi güncellemeleri kontrol et",
+      "btn_update_checking": "Güncellemeleri kontrol et",
+      "free_version": "<span class=\"ff-tag\">Ücretsiz</span> Gitscout kullanıyorsun!",
+      "go_premium": "Kendine daha iyi davran!",
+      "btn_upgrade": "Premium'a geçin!",
+      "user_spellcheck": "Yazım Denetleyicisini Kullanma (sadece ingilizce)"
     },
     "issues": {
-      "state": "Show open issues by default",
-      "sort": "Sort issues by:",
+      "state": "Açık sorunları varsayılan olarak gösterin",
+      "sort": "Konuları sırala:",
       "sortby": {
-        "newest": "Newest",
-        "oldest": "Creation date",
-        "commented": "Recently commented",
-        "updated": "Recently updated"
+        "newest": "En yeni",
+        "oldest": "Oluşturulma tarihi",
+        "commented": "Son zamanlarda yorum yazıldı",
+        "updated": "Son güncellenen"
       }
     },
     "actions": {
-      "repository": "Repository issues list",
-      "notifications": "Notifications issues list",
-      "saved": "Saved issues list",
+      "repository": "Proje sorunları listesi",
+      "notifications": "Bildirimlerle ilgili sorun listesi",
+      "saved": "Kaydedilen sorunlar listesi",
       "labels": {
-        "none": "No action",
+        "none": "Hiçbir eylem yok",
         "save": "Kaydet/Kaydetme",
         "state": "Kapat/Yeniden aç",
-        "assign": "Toggle self-assign",
-        "milestone": "Add/remove to next milestone",
+        "assign": "Atamayı aç / kapat",
+        "milestone": "Sonraki kilometre taşını ekleme / kaldırma",
         "subscribe": "Üye ol/Üyelikten ayrıl",
         "read": "Okundu olarak işaretle"
       }
     },
     "notifications": {
       "disabled": "Beni rahatsız etme!",
-      "participating": "Yalnızca thread katılırsam.",
+      "participating": "Sadece katılsam",
       "all": "Daima."
     },
     "repositories": {
-      "default": "<p>Need to focus on major projects?</p><p>Let's define the visible<br>organizations/repositories in the sidebar.</p>",
+      "default": "<p>Büyük projelere odaklanmamız gerekiyor?</p><p>Görünür<br> organizasyonları ve projeleri kenar çubuğunda tanımlayın.</p>",
       "owner_desc": {
         "zero": "%s, proje yok",
         "one": "%s, %s proje",
@@ -423,7 +423,7 @@
       },
       "btn_add_repository": "Proje ekle",
       "btn_show_repositories": "Projeleri göster",
-      "hide_owner": "Hide this %s from the sidebar",
+      "hide_owner": "Kenar çubuğunda %s bunu gizle",
       "show_all": "Bütün projeleri göster",
       "no_desc": "Açıklama yok"
     }
